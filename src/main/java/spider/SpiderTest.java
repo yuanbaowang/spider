@@ -116,5 +116,34 @@ public static void main(String[] args) throws Exception  {
 		}
 	}
 
+//	@Test
+//	public void Data() throws IOException {
+//		Connection connect = Jsoup.connect("http://www.cbdio.com/node_2782.htm");
+//		Document document = connect.get();
+//		Elements select = document.select(".cb-media");
+//		String title = null;
+//		for (Element element : select) {
+//			Elements select2 = element.select("a[href]");
+//			for (Element element2 : select2) {
+//				//获取所有的网址
+//				String attr = element2.attr("href");
+//				
+//				if(!attr.startsWith("http:")) {
+//					attr = "http://www.cbdio.com/"+attr;
+//					Connection connect2 = Jsoup.connect(attr);
+//					Document document2 = connect2.get();
+//					
+//					Elements select3 = document2.select("p");
+//					for (Element element3 : select3) {
+//						String text = element3.text();
+//						if(text.length()>50)
+//						System.out.println(text);
+//					}
+//					
+//				}
+//			}
+//		}
+//	}
+
 
 }

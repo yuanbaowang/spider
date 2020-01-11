@@ -53,16 +53,5 @@ public class TestSpiderArticle {
 		
 		
 	}
-	
-	public static void main(String[] args) {
-		
-		for (int i = 0; i < 500; i++) {
-			int random = (int) (Math.random()*(100)+1);
-			System.out.println(random);
-			if(random == 0) {
-				System.err.println(random);
-			}
-		}
-	}
 
 }
